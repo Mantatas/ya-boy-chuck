@@ -11965,3 +11965,22 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-color: rgb(141, 143, 143) !important;
+}
+body #searchResults .gridCont {
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+body #searchResults .gridCont__memeItem {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+body #searchResults .gridCont__saveBtn {
+  align-self: flex-end;
+  width: 13rem;
+}

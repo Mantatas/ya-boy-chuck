@@ -1,0 +1,27 @@
+body{
+
+    background-color: rgb(141, 143, 143)!important;
+
+    #searchResults{
+        .gridCont{
+
+            background-color: white;
+            border-radius: 15px;
+            padding: 5px;
+            margin-bottom: 0.5rem;
+            display: flex;
+            flex-direction: column;
+
+            &__memeItem{
+                font-weight: bold;
+                font-size: 1.4rem;
+            }
+
+            &__saveBtn{
+                align-self: flex-end;
+                width: 13rem;
+            }
+
+        }
+    }
+}
